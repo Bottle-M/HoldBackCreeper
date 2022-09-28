@@ -1,0 +1,17 @@
+# Enable the plugin
+enable: true
+# Worlds where the damage of creeper explosions will be ignored
+# worlds:
+#  - world
+#  - world_nether
+#  - world_the_end
+worlds: [ ]
+
+# Entities that ignore the effects of the CREEPER explosions
+# Reference: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html
+entities:
+  - PAINTING
+  - ARMOR_STAND
+  - LEASH_HITCH
+  - ITEM_FRAME
+  - GLOW_ITEM_FRAME

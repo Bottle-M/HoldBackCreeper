@@ -1,0 +1,13 @@
+name: HoldBackCreeper
+version: '${project.version}'
+main: somebottle.holdbackcreeper.HoldBackCreeper
+api-version: 1.19
+authors: [ SomeBottle ]
+description: A simple plugin to prevent creeper from damaging anything
+website: https://github.com/Bottle-M
+commands:
+  holdbackcreeper:
+    description: Command for Plugin HoldBackCreeper.
+    usage: /holdbackcreeper reload
+    permission: holdbackcreeper.reload
+    permission-message: Permission denied.
